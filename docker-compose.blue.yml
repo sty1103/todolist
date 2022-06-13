@@ -1,0 +1,8 @@
+#blue
+version: '3'
+services:
+  nextjs:
+    build: ./
+    restart: unless-stopped
+    ports:
+      - 3001:3000
